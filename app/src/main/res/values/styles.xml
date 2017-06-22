@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.SampleView" parent="">
+        <item name="android:minWidth">@dimen/sampleViewMinWidth</item>
+        <item name="android:minHeight">@dimen/sampleViewMinHeight</item>
+        <item name="sampleBorderWidth">@dimen/sampleViewBorderWidth</item>
+        <item name="borderColor">@color/sampleViewBorderColor</item>
+        <item name="innerColor">@color/sampleViewInnerColor</item>
+    </style>
+
+    <style name="Widget.SampleView.InTheme">
+        <item name="innerColor">#FF00FF</item>
+    </style>
+
+    <style name="Widget.SampleView.Extended">
+        <item name="innerColor">#00FFFF</item>
+    </style>
+
+</resources>
