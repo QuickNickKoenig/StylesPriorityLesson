@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="TextAppearance.Sample"
+        parent="TextAppearance.AppCompat" />
+
+    <style name="TextAppearance.Sample.Body">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Sample.Body.Primary">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Sample.Body.Accent">
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="TextAppearance.Sample.Headline">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
+    </style>
+
+    <style name="TextAppearance.Sample.Headline.Primary">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Sample.Headline.Accent">
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
     <style name="Widget.SampleView" parent="">
         <item name="android:minWidth">@dimen/sampleViewMinWidth</item>
         <item name="android:minHeight">@dimen/sampleViewMinHeight</item>
@@ -10,11 +39,11 @@
     </style>
 
     <style name="Widget.SampleView.InTheme">
-        <item name="innerColor">#FF00FF</item>
+        <item name="innerColor">?attr/colorAccent</item>
     </style>
 
     <style name="Widget.SampleView.Extended">
-        <item name="innerColor">#00FFFF</item>
+        <item name="innerColor">?attr/colorPrimary</item>
     </style>
 
 </resources>

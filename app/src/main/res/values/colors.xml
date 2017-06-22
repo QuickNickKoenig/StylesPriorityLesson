@@ -4,6 +4,14 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="textColorPrimary">#F0000000</color>
+    <color name="textColorSecondary">#CC000000</color>
+    <color name="textColorTertiary">#88000000</color>
+
+    <color name="textColorPrimaryInverse">#FFFFFFFF</color>
+    <color name="textColorSecondaryInverse">#CCFFFFFF</color>
+    <color name="textColorTertiaryInverse">#88FFFFFF</color>
+
     <color name="sampleViewInnerColor">#FF0000</color>
     <color name="sampleViewBorderColor">#00FF00</color>
 </resources>
