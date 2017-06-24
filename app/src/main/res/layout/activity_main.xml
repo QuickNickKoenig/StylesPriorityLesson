@@ -65,6 +65,37 @@
             </android.support.design.widget.TextInputLayout>
 
             <Button
+                style="@style/Widget.Sample.Button.Colored.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click me" />
+
+            <Button
+                style="@style/Widget.Sample.Button.Colored.Accent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click me" />
+
+            <Button
+                style="@style/Widget.Sample.Button.Borderless.Colored.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click me" />
+
+            <Button
+                style="@style/Widget.Sample.Button.Borderless.Colored.Accent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click me" />
+
+            <Button
+                style="?attr/buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click me" />
+
+            <Button
+                style="?attr/borderlessButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Click me" />
@@ -93,6 +124,7 @@
             <ToggleButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:checked="true"
                 android:text="Toggle button" />
 
             <android.support.v7.widget.SwitchCompat

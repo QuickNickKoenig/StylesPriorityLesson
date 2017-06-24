@@ -30,7 +30,7 @@
         <item name="android:textColor">?attr/colorAccent</item>
     </style>
 
-    <style name="Widget.SampleView" parent="">
+    <style name="Widget.Sample.SampleView" parent="">
         <item name="android:minWidth">@dimen/sampleViewMinWidth</item>
         <item name="android:minHeight">@dimen/sampleViewMinHeight</item>
         <item name="sampleBorderWidth">@dimen/sampleViewBorderWidth</item>
@@ -38,12 +38,42 @@
         <item name="innerColor">@color/sampleViewInnerColor</item>
     </style>
 
-    <style name="Widget.SampleView.InTheme">
+    <style name="Widget.Sample.SampleView.InTheme">
         <item name="innerColor">?attr/colorAccent</item>
     </style>
 
-    <style name="Widget.SampleView.Extended">
+    <style name="Widget.Sample.SampleView.Extended">
         <item name="innerColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Widget.Sample.Button.Colored.Primary"
+        parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/colored_button_primary</item>
+    </style>
+
+    <style name="Widget.Sample.Button.Colored.Accent"
+        parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/colored_button_accent</item>
+    </style>
+
+    <style name="Widget.Sample.Button.Borderless.Colored.Primary"
+        parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textAppearance">@style/TextAppearance.Sample.Widget.Button.Borderless.Colored.Primary</item>
+    </style>
+
+    <style name="TextAppearance.Sample.Widget.Button.Borderless.Colored.Primary"
+        parent="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored">
+        <item name="android:textColor">@color/borderless_button_primary</item>
+    </style>
+
+    <style name="Widget.Sample.Button.Borderless.Colored.Accent"
+        parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textAppearance">@style/TextAppearance.Sample.Widget.Button.Borderless.Colored.Accent</item>
+    </style>
+
+    <style name="TextAppearance.Sample.Widget.Button.Borderless.Colored.Accent"
+        parent="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored">
+        <item name="android:textColor">@color/borderless_button_accent</item>
     </style>
 
 </resources>

@@ -20,7 +20,10 @@
         <item name="android:textColorSecondaryInverse">@color/textColorSecondaryInverse</item>
         <item name="android:textColorTertiaryInverse">@color/textColorTertiaryInverse</item>
 
-        <item name="sampleViewStyle">@style/Widget.SampleView.InTheme</item>
+        <item name="buttonStyle">@style/Widget.Sample.Button.Colored.Primary</item>
+        <item name="borderlessButtonStyle">@style/Widget.Sample.Button.Borderless.Colored.Primary</item>
+
+        <item name="sampleViewStyle">@style/Widget.Sample.SampleView.InTheme</item>
     </style>
 
     <style name="Theme.Sample.Dark">

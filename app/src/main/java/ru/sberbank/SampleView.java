@@ -34,7 +34,7 @@ public class SampleView extends View {
     public SampleView(Context context,
                       @Nullable AttributeSet attrs,
                       int defStyleAttr) {
-        this(context, attrs, defStyleAttr, R.style.Widget_SampleView);
+        this(context, attrs, defStyleAttr, R.style.Widget_Sample_SampleView);
     }
 
     public SampleView(Context context,
