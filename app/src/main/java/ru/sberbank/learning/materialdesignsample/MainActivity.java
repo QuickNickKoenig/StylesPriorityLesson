@@ -1,5 +1,6 @@
 package ru.sberbank.learning.materialdesignsample;
 
+import android.support.design.widget.Snackbar;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -19,13 +20,13 @@ public class MainActivity extends AppCompatActivity {
         TextInputLayout textInputLayout = (TextInputLayout) findViewById(R.id.text_input2);
         textInputLayout.setError("Error");
 
-//        AlertDialog dialog = new AlertDialog.Builder(this)
-//                .setTitle("Title")
-//                .setMessage("Message")
-//                .setPositiveButton("OK", null)
-//                .setNeutralButton("Maybe", null)
-//                .setNegativeButton("No", null)
-//                .create();
-//        dialog.show();
+        AlertDialog dialog = new AlertDialog.Builder(this)
+                .setTitle("Title")
+                .setMessage("Message")
+                .setPositiveButton("OK", null)
+                .setNeutralButton("Maybe", null)
+                .setNegativeButton("No", null)
+                .create();
+        dialog.show();
     }
 }

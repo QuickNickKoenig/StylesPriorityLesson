@@ -23,6 +23,10 @@
         <item name="buttonStyle">@style/Widget.Sample.Button.Colored.Primary</item>
         <item name="borderlessButtonStyle">@style/Widget.Sample.Button.Borderless.Colored.Primary</item>
 
+        <!-- Alert Dialog -->
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.Sample.Button.Borderless.Colored.Primary</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.Sample.Button.Borderless.Colored.Accent</item>
+
         <item name="sampleViewStyle">@style/Widget.Sample.SampleView.InTheme</item>
     </style>
 
